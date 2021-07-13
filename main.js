@@ -1,5 +1,5 @@
-moustacheX=0;
-moustacheY=0;
+NoseX=0;
+NoseY=0;
 function preload(){
     mustache=loadImage("download.png");
 }
@@ -16,7 +16,7 @@ function setup(){
 
 function draw(){
     image(video,0,0,300,300);
-    image(mustache,moustacheX,moustacheY,15,35);
+    image(mustache,NoseX,NoseY,50,50);
 }
 
 function take_snapshot(){
