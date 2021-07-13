@@ -1,0 +1,19 @@
+h3{
+    font-size:25px;
+}
+
+canvas{
+    animation-name:My_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border:1px solid black;
+}
+
+@keyframes My_animation{
+    from{
+        box-shadow: 1px 1px 38px blue;
+    }
+    to{
+        box-shadow: 1px 1px 38px green;
+    }
+}
